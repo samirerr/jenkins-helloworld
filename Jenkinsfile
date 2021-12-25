@@ -1,6 +1,6 @@
 pipeline {
     
-     agent agent1
+     node("agent1")
      stages {
          stage('Clone') {
              agent any
